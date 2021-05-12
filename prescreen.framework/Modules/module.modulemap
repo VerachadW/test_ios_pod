@@ -1,0 +1,11 @@
+framework module prescreen {
+  umbrella header "prescreen.h"
+
+  export *
+  module * { export * }
+}
+
+module prescreen.Swift {
+    header "prescreen-Swift.h"
+    requires objc
+}
